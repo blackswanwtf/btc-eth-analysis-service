@@ -1,0 +1,52 @@
+{
+  "name": "btc-eth-analysis-service",
+  "version": "1.0.0",
+  "description": "AI-powered Bitcoin and Ethereum analysis service that provides comprehensive trend analysis, performance insights, and market intelligence using LLMs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "crypto-anomaly-detection",
+    "bitcoin",
+    "ethereum",
+    "price-drops",
+    "ai-detection",
+    "anomaly-analysis",
+    "market-monitoring",
+    "risk-detection",
+    "openrouter",
+    "llm-analysis",
+    "financial-data",
+    "real-time",
+    "firestore",
+    "cryptocurrency",
+    "btc",
+    "eth",
+    "drop-detection",
+    "behavioral-analysis",
+    "automated-monitoring"
+  ],
+  "author": "Muhammad Bilal Motiwala",
+  "project": "Black Swan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.8.0",
+    "firebase-admin": "^11.11.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
